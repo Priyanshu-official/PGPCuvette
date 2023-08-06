@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+
+.mainContainer{
+    background-color: #FFCD9E;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+.leftBox{
+    width: 50%;
+    /* padding: 10px; */
+    margin: 150px;
+}   
+.rightBox{
+    width: 50%;
+}
+.img1{
+    width: 750px;
+    margin-right: 150px;
+}
+
+
+h1{
+    width: 580px;
+    height: 125px;
+    top: 83px;
+    margin-left: 20%;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:2% ;
+}
+.p1{
+    width: 60%;
+    height: 125px;
+    top: 219px;
+    margin-left: 20%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #484848;
+}
+h3{
+    width: 227px;
+    height: 80px;
+    top: 315px;
+    left: 136px;
+    margin-left: 20%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.p2{
+    width: 344px;
+    height: 60px;
+    top: 479px;
+    margin-left: 20%;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+input{
+    width: 344px;
+    height: 64px;
+    margin-left: 20%;
+    top: 411px;
+    border-radius: 8px;
+    border: 4px solid #282828; 
+    color: #484848;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-indent: 2em;
+}    
+
+.buttonContainer{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+button{
+    margin-left: 20px;
+    width: 200px;
+    height: 70px;
+    top: 411px;
+    left: 496px;
+    border-radius: 8px;
+    border: 4px solid #282828;
+    background-color: #282828; 
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white; 
+    cursor: pointer;   
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    background-color: #282828;
+    justify-content: center;
+}
+
+.leftBoxFooter{
+    height: fit-content;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 50%;
+    list-style: none;
+}
+
+.rightBoxFooter{
+    list-style: none;
+    width: 20%; 
+    height: fit-content;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: right;
+}
