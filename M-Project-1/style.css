@@ -5,20 +5,21 @@
 .mainContainer{
     background-color: #FFCD9E;
     display: flex;
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
 }
 .leftBox{
     width: 50%;
     /* padding: 10px; */
-    margin: 150px;
+    margin: 150px 10px;
 }   
 .rightBox{
     width: 50%;
 }
 .img1{
-    width: 750px;
-    margin-right: 150px;
+    width: 650px;
+    /* margin-right: 150px; */
+    /* overflow: hidden; */
 }
 
 
@@ -126,8 +127,8 @@ footer{
 
 .leftBoxFooter{
     height: fit-content;
-    padding: 20px;
-    margin: 10px;
+    padding: 25px;
+    margin: 5px;
     color: white;
     font-family: Inter;
     font-size: 20px;
